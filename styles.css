@@ -1,0 +1,138 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+line-height:1.6;
+}
+
+
+/* NAVBAR */
+
+header{
+position:sticky;
+top:0;
+background:#222;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+}
+
+.logo a{
+color:white;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.nav-links a:hover{
+color:#00bcd4;
+}
+
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background-image:url("images/hero-bg.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/*i added this image for the hero section*/
+.hero img{
+    width:150px;
+border-radius:60%;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#333;
+color:white;
+text-decoration:none;
+}
+
+
+/* SECTIONS */
+
+section{
+padding:60px 40px;
+background:gray;
+}
+
+
+/* PROJECTS */
+
+.projects-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project-card{
+border:1px solid #ddd;
+padding:20px;
+background:rgb(184, 154, 154);
+}
+
+
+/* ABOUT */
+
+.about-container{
+display:flex;
+gap:20px;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.about-container img{
+width:150px;
+border-radius:50%;
+}
+
+
+/* SKILLS */
+
+.skills-list{
+list-style:none;
+padding:0;
+}
+
+.skills-list li{
+padding:8px 0;
+}
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+background:#222;
+color:white;
+padding:20px;
+}
